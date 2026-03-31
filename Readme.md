@@ -47,13 +47,13 @@
 ###
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/mdhia-lumosdhia/" target="_blank">
+  <a href="https://www.linkedin.com/in/mdhia-lumosdhia/" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="47" height="35" alt="linkedin logo"  />
   </a>
-  <a href="https://www.instagram.com/lumosdhia/" target="_blank">
+  <a href="https://www.instagram.com/lumosdhia/" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="47" height="35" alt="instagram logo"  />
   </a>
-  <a href=" mdhiaaouina@outlook.com" target="_blank">
+  <a href="mailto:mdhiaaouina@outlook.com">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="47" height="35" alt="microsoft-outlook logo"  />
   </a>
 </div>
