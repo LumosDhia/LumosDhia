@@ -1,9 +1,4 @@
-<h1 align="left">Hi 👋! My name is Mohamed Dhia</h1>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&text=%F0%9F%94%AD%20Student%20at%20ESPRIT%20%7C%20%20%F0%9F%93%9A%20Currently%20learning%20K8S&fontSize=32&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
+ <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&text=%F0%9F%94%AD%20Student%20at%20ESPRIT%20%7C%20%20%F0%9F%93%9A%20Currently%20learning%20K8S&fontSize=32&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
 </div>
 
 ###
@@ -64,6 +59,10 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/LumosDhia/LumosDhia/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LumosDhia/LumosDhia/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LumosDhia/LumosDhia/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/LumosDhia/LumosDhia/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
