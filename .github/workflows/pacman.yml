@@ -18,6 +18,9 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -28,8 +31,15 @@ jobs:
       - name: Prepare files for push
         run: |
           mkdir -p dist
-          mv pacman-contribution-graph.svg dist/
-          cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg
+          # Move the SVG if it exists, otherwise list files to debug
+          if [ -f pacman-contribution-graph.svg ]; then
+            mv pacman-contribution-graph.svg dist/
+            cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg
+          else
+            echo "SVG file not found!"
+            ls -R
+            exit 1
+          fi
 
       - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
