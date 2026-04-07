@@ -28,17 +28,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
-      - name: Prepare files for push
+      - name: Ensure dark mode compatibility
         run: |
-          mkdir -p dist
-          # Move the SVG if it exists, otherwise list files to debug
-          if [ -f pacman-contribution-graph.svg ]; then
-            mv pacman-contribution-graph.svg dist/
+          # Copy the generated SVG to the -dark.svg path used in Readme.md
+          if [ -f dist/pacman-contribution-graph.svg ]; then
             cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg
-          else
-            echo "SVG file not found!"
-            ls -R
-            exit 1
           fi
 
       - name: push pacman-contribution-graph.svg to the output branch
