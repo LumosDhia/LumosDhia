@@ -1,0 +1,20 @@
+name: Update HackMD stats
+# Disabled: no HACKMD_USER set up yet. Add a schedule/workflow_dispatch
+# trigger back here and set hackmd_user below once I have my own account.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: pipi-bear/hackmd-readme-stats@main
+        with:
+          hackmd_user: CHANGE_ME
+          show_description: 'false'
