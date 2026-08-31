@@ -136,7 +136,7 @@ trigger.
 <!--START_SECTION:reading-->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/reading_card_dark.png">
-  <img src="assets/reading_card_light.png" alt="Currently reading — 0 pages this week" width="400">
+  <img src="assets/reading_card_light.png" alt="Currently reading — 20 total pages read" width="400">
 </picture></p>
 <!--END_SECTION:reading-->
 <br clear="both">
