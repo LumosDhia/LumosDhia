@@ -1,9 +1,9 @@
 """
-Fetches the current "Currently Reading" book plus this week's logged reading
-activity from Hardcover, renders a reading-streak-style card image to
-assets/reading_card.png, and makes sure the
-<!--START_SECTION:reading--> ... <!--END_SECTION:reading--> block in Readme.md
-embeds it.
+Fetches the current "Currently Reading" book, this week's logged reading
+activity, and the all-time total pages read from Hardcover, renders a
+reading-streak-style card image to assets/reading_card.png, and makes sure
+the <!--START_SECTION:reading--> ... <!--END_SECTION:reading--> block in
+Readme.md embeds it.
 """
 
 import io
@@ -101,38 +101,34 @@ def week_start(today: date) -> date:
     return today - timedelta(days=(today.weekday() + 1) % 7)
 
 
-def fetch_week_activity(api_key: str, today: date):
+def fetch_reading_stats(api_key: str, today: date):
     """
-    Returns (days_active, pages_this_week):
+    Returns (days_active, total_pages_read):
     - days_active: list of 7 bools, Sun..Sat, True if any book had a read logged that day.
-    - pages_this_week: pages advanced this week, computed as the delta over each
-      book's progress baseline from before the week started (avoids double-counting
-      the cumulative progress_pages value across multiple log entries).
+    - total_pages_read: all-time total pages read across every book, using each
+      book's highest logged progress_pages value (progress is cumulative within a book).
     """
     payload = _graphql(api_key, ALL_READS_QUERY)
     user_books = payload.get("data", {}).get("me", [{}])[0].get("user_books", [])
 
     start = week_start(today)
     days_active = [False] * 7
-    pages_this_week = 0
+    total_pages_read = 0
 
     for ub in user_books:
-        prior_max = 0
+        book_max = 0
         for r in ub.get("user_book_reads") or []:
             if not r.get("started_at"):
                 continue
             d = date.fromisoformat(r["started_at"])
             pages = r.get("progress_pages") or 0
-            if d < start:
-                prior_max = max(prior_max, pages)
-                continue
+            book_max = max(book_max, pages)
             idx = (d - start).days
             if 0 <= idx < 7:
                 days_active[idx] = True
-            pages_this_week += max(0, pages - prior_max)
-            prior_max = max(prior_max, pages)
+        total_pages_read += book_max
 
-    return days_active, pages_this_week
+    return days_active, total_pages_read
 
 
 def load_font(candidates, size):
@@ -180,7 +176,7 @@ def fetch_cover(cover_url, cover_w, cover_h):
     return cover.crop((left, top, left + cover_w, top + cover_h))
 
 
-def render_card(cover_url, pages_this_week, days_active, out_path, theme="light"):
+def render_card(cover_url, total_pages_read, days_active, out_path, theme="light"):
     pal = PALETTES[theme]
     SS = 3  # supersample multiplier on top of SCALE, downsampled at the end for anti-aliasing
     s = SCALE * SS
@@ -198,12 +194,12 @@ def render_card(cover_url, pages_this_week, days_active, out_path, theme="light"
 
     num_font = load_font(FONT_CANDIDATES_BOLD, 40 * s)
     label_font = load_font(FONT_CANDIDATES_REG, 12 * s)
-    num_text = str(pages_this_week)
+    num_text = str(total_pages_read)
     bbox = draw.textbbox((0, 0), num_text, font=num_font)
     num_w = bbox[2] - bbox[0]
     draw.text((col_right - num_w, 18 * s), num_text, font=num_font, fill=(255, 255, 255, 255))
 
-    label_text = "pages read"
+    label_text = "total pages read"
     lbbox = draw.textbbox((0, 0), label_text, font=label_font)
     lw = lbbox[2] - lbbox[0]
     draw.text((col_right - lw, 66 * s), label_text, font=label_font, fill=pal["muted"])
@@ -241,15 +237,15 @@ def main():
     today = date.today()
 
     entry = fetch_current_book(api_key)
-    days_active, pages_this_week = fetch_week_activity(api_key, today)
+    days_active, total_pages_read = fetch_reading_stats(api_key, today)
 
     if entry is None:
         block = f"{START}\n📖 No book currently being tracked as reading on Hardcover.\n{END}"
     else:
         cover_url = (entry["book"].get("cached_image") or {}).get("url", "")
-        render_card(cover_url, pages_this_week, days_active, os.path.join(repo_root, IMAGE_PATH_LIGHT), theme="light")
-        render_card(cover_url, pages_this_week, days_active, os.path.join(repo_root, IMAGE_PATH_DARK), theme="dark")
-        alt = f"Currently reading — {pages_this_week} pages this week"
+        render_card(cover_url, total_pages_read, days_active, os.path.join(repo_root, IMAGE_PATH_LIGHT), theme="light")
+        render_card(cover_url, total_pages_read, days_active, os.path.join(repo_root, IMAGE_PATH_DARK), theme="dark")
+        alt = f"Currently reading — {total_pages_read} total pages read"
         block = (
             f"{START}\n"
             '<p align="center"><picture>\n'

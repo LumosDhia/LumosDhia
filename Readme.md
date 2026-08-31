@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&color=7DD3FC&center=true&vCenter=true&width=700&repeat=false&lines=Truth+can+only+be+found+in+one+place%3A+the+code" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&color=7DD3FC&center=true&vCenter=true&width=700&repeat=false&lines=Truth+can+only+be+found+in+one+place%3A+the+code" alt="Typing SVG" />
 </p>
 
 
