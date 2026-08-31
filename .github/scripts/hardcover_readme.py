@@ -197,7 +197,7 @@ def render_card(cover_url, total_pages_read, days_active, out_path, theme="light
     num_text = str(total_pages_read)
     bbox = draw.textbbox((0, 0), num_text, font=num_font)
     num_w = bbox[2] - bbox[0]
-    draw.text((col_right - num_w, 18 * s), num_text, font=num_font, fill=(255, 255, 255, 255))
+    draw.text((col_right - num_w, 18 * s), num_text, font=num_font, fill=pal["text"])
 
     label_text = "total pages read"
     lbbox = draw.textbbox((0, 0), label_text, font=label_font)
