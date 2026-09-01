@@ -157,4 +157,39 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-6%20hrs%2011%20mins-blue?style=flat)
+
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   206 commits         █████░░░░░░░░░░░░░░░░░░░░   18.28 % 
+Tuesday                  204 commits         █████░░░░░░░░░░░░░░░░░░░░   18.10 % 
+Wednesday                147 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+Thursday                 113 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.03 % 
+Friday                   171 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.17 % 
+Saturday                 132 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.71 % 
+Sunday                   154 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.66 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+Other                    2 hrs 26 mins       ███████░░░░░░░░░░░░░░░░░░   28.36 % 
+Markdown                 2 hrs 15 mins       ███████░░░░░░░░░░░░░░░░░░   26.10 % 
+Python                   1 hr 11 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.78 % 
+Image (svg)              40 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.83 % 
+Java                     37 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.24 % 
+
+🐱‍💻 Projects: 
+LumosDhia                3 hrs 22 mins       ██████████░░░░░░░░░░░░░░░   39.13 % 
+Edits                    1 hr 3 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.17 % 
+Java-pi                  56 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.89 % 
+Pidevphp                 47 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
+No Background            42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.16 % 
+```
+
+
+ Last Updated on 01/09/2026 09:33:52 UTC
 <!--END_SECTION:waka-->
