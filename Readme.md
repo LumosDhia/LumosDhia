@@ -13,8 +13,8 @@ LumosDhia@github
 📜 Bachelor's in IT (Honors), now doing a Master's in CS
 🌱 Learning K8S 
 💫 Python, Java, Bash 
-⛰️ Hicking / Swiming
-📷 Photographie / Reading
+⛰️ Hicking / Swimming
+📷 Photography / Reading
 ```
 </p>
 
