@@ -157,7 +157,7 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-9%20hrs%2044%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-16%20hrs%2011%20mins-blue?style=flat)
 
 📅 **I'm Most Productive on Tuesday** 
 
@@ -176,20 +176,20 @@ Sunday                   57 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 3 hrs 47 mins       ███████░░░░░░░░░░░░░░░░░░   29.77 % 
-Other                    2 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   23.34 % 
-Python                   1 hr 14 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.83 % 
-TeX                      41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.45 % 
-Image (svg)              40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.32 % 
+Markdown                 5 hrs 45 mins       ███████░░░░░░░░░░░░░░░░░░   28.01 % 
+Other                    4 hrs 23 mins       █████░░░░░░░░░░░░░░░░░░░░   21.31 % 
+Python                   1 hr 41 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.21 % 
+TypeScript               1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.06 % 
+Bash                     49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.04 % 
 
 🐱‍💻 Projects: 
-LumosDhia                3 hrs 32 mins       ███████░░░░░░░░░░░░░░░░░░   27.87 % 
-cvs                      1 hr 14 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.80 % 
-ai-job-search            1 hr 5 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.55 % 
-Edits                    1 hr 3 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.27 % 
-Java-pi                  56 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.40 % 
+LumosDhia                3 hrs 32 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.23 % 
+Mvp-Hub                  2 hrs 22 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.54 % 
+cvs                      1 hr 30 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.31 % 
+campus-pass              1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.89 % 
+ai-job-search            1 hr 5 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.29 % 
 ```
 
 
- Last Updated on 03/09/2026 02:27:34 UTC
+ Last Updated on 04/09/2026 02:23:08 UTC
 <!--END_SECTION:waka-->
