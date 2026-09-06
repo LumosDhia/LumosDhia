@@ -157,7 +157,7 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-21%20hrs%2051%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-29%20hrs%209%20mins-blue?style=flat)
 
 📅 **I'm Most Productive on Tuesday** 
 
@@ -176,20 +176,20 @@ Sunday                   58 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Other                    6 hrs 50 mins       ███████░░░░░░░░░░░░░░░░░░   26.10 % 
-Markdown                 5 hrs 33 mins       █████░░░░░░░░░░░░░░░░░░░░   21.25 % 
-TypeScript               3 hrs 19 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.69 % 
-Python                   1 hr 20 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.14 % 
-Bash                     1 hr 9 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.43 % 
+Other                    8 hrs 28 mins       ███████░░░░░░░░░░░░░░░░░░   26.08 % 
+Markdown                 7 hrs 19 mins       ██████░░░░░░░░░░░░░░░░░░░   22.55 % 
+TypeScript               4 hrs 55 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.13 % 
+Bash                     1 hr 35 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 % 
+JSON                     1 hr 26 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.44 % 
 
 🐱‍💻 Projects: 
-Mvp-Hub                  6 hrs 41 mins       ██████░░░░░░░░░░░░░░░░░░░   25.53 % 
-rose                     1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.47 % 
-cvs                      1 hr 30 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.74 % 
-campus-pass              1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
-LumosDhia                1 hr 10 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 % 
+Mvp-Hub                  10 hrs 22 mins      ████████░░░░░░░░░░░░░░░░░   31.90 % 
+rose                     2 hrs 27 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.56 % 
+ideas                    1 hr 48 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.58 % 
+campus-pass              1 hr 40 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.17 % 
+cvs                      1 hr 30 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
 ```
 
 
- Last Updated on 05/09/2026 02:23:49 UTC
+ Last Updated on 06/09/2026 02:19:55 UTC
 <!--END_SECTION:waka-->
