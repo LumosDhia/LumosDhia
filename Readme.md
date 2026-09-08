@@ -157,7 +157,7 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-32%20hrs%2040%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-36%20hrs%209%20mins-blue?style=flat)
 
 📅 **I'm Most Productive on Tuesday** 
 
@@ -176,20 +176,20 @@ Sunday                   58 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Other                    9 hrs 46 mins       ███████░░░░░░░░░░░░░░░░░░   26.37 % 
-Markdown                 8 hrs 43 mins       ██████░░░░░░░░░░░░░░░░░░░   23.54 % 
-TypeScript               4 hrs 55 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
-Text                     3 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   08.09 % 
-Bash                     1 hr 35 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
+Other                    10 hrs 30 mins      ██████░░░░░░░░░░░░░░░░░░░   25.45 % 
+Markdown                 9 hrs 23 mins       ██████░░░░░░░░░░░░░░░░░░░   22.72 % 
+TypeScript               5 hrs 3 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.26 % 
+Text                     3 hrs 23 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.22 % 
+Python                   3 hrs 6 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.51 % 
 
 🐱‍💻 Projects: 
-Mvp-Hub                  10 hrs 22 mins      ███████░░░░░░░░░░░░░░░░░░   27.96 % 
-rose                     2 hrs 27 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.63 % 
-ideas                    2 hrs 4 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.58 % 
-Arabic                   1 hr 44 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.70 % 
-campus-pass              1 hr 40 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
+Mvp-Hub                  10 hrs 22 mins      ██████░░░░░░░░░░░░░░░░░░░   25.10 % 
+rose                     2 hrs 27 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.95 % 
+ideas                    2 hrs 11 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.29 % 
+pdfs                     1 hr 48 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
+Arabic                   1 hr 48 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.38 % 
 ```
 
 
- Last Updated on 07/09/2026 02:17:03 UTC
+ Last Updated on 08/09/2026 02:30:04 UTC
 <!--END_SECTION:waka-->
