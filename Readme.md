@@ -157,18 +157,18 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-45%20hrs%2050%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-48%20hrs%202%20mins-blue?style=flat)
 
-📅 **I'm Most Productive on Tuesday** 
+📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   116 commits         ██████░░░░░░░░░░░░░░░░░░░   22.18 % 
-Tuesday                  120 commits         ██████░░░░░░░░░░░░░░░░░░░   22.94 % 
-Wednesday                54 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.33 % 
-Thursday                 31 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.93 % 
-Friday                   75 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
-Saturday                 66 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
-Sunday                   61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.66 % 
+Monday                   120 commits         ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
+Tuesday                  120 commits         ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
+Wednesday                54 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
+Thursday                 31 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
+Friday                   75 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.23 % 
+Saturday                 66 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.52 % 
+Sunday                   61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.57 % 
 ```
 
 
@@ -176,20 +176,20 @@ Sunday                   61 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Other                    8 hrs 23 mins       ██████████░░░░░░░░░░░░░░░   38.92 % 
-TypeScript               4 hrs 50 mins       ██████░░░░░░░░░░░░░░░░░░░   22.45 % 
-Markdown                 3 hrs 13 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.99 % 
-Python                   2 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.48 % 
-Bash                     1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   04.68 % 
+Other                    9 hrs 54 mins       ███████████░░░░░░░░░░░░░░   45.49 % 
+TypeScript               4 hrs 42 mins       █████░░░░░░░░░░░░░░░░░░░░   21.61 % 
+Markdown                 4 hrs 38 mins       █████░░░░░░░░░░░░░░░░░░░░   21.33 % 
+Bash                     54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.20 % 
+CSS                      42 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
 
 🐱‍💻 Projects: 
-Mvp-Hub                  14 hrs 12 mins      ████████████████░░░░░░░░░   65.91 % 
-Thumbnail                1 hr 41 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.84 % 
-aram                     1 hr 7 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.24 % 
-LumosDhia                1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   04.77 % 
-cvs                      29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.25 % 
+Mvp-Hub                  14 hrs 12 mins      ████████████████░░░░░░░░░   65.23 % 
+blackboard-mocha-theme   4 hrs 8 mins        █████░░░░░░░░░░░░░░░░░░░░   19.00 % 
+LumosDhia                57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.38 % 
+aram                     49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.81 % 
+cvs                      29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.23 % 
 ```
 
 
- Last Updated on 14/09/2026 02:49:30 UTC
+ Last Updated on 15/09/2026 02:51:50 UTC
 <!--END_SECTION:waka-->
