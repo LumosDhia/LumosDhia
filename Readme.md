@@ -162,13 +162,13 @@ workflow config, leaving mainly the language breakdown chart.
 📅 **I'm Most Productive on Tuesday** 
 
 ```text
-Monday                   120 commits         ██████░░░░░░░░░░░░░░░░░░░   22.68 % 
-Tuesday                  122 commits         ██████░░░░░░░░░░░░░░░░░░░   23.06 % 
-Wednesday                54 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.21 % 
-Thursday                 31 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.86 % 
-Friday                   75 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.18 % 
-Saturday                 66 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.48 % 
-Sunday                   61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.53 % 
+Monday                   120 commits         ██████░░░░░░░░░░░░░░░░░░░   22.64 % 
+Tuesday                  122 commits         ██████░░░░░░░░░░░░░░░░░░░   23.02 % 
+Wednesday                55 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.38 % 
+Thursday                 31 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.85 % 
+Friday                   75 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.15 % 
+Saturday                 66 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.45 % 
+Sunday                   61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.51 % 
 ```
 
 
@@ -176,20 +176,20 @@ Sunday                   61 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Other                    13 hrs 27 mins      ███████████████░░░░░░░░░░   61.86 % 
-Markdown                 3 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.34 % 
-TypeScript               1 hr 44 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.97 % 
-HTML                     1 hr 37 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.44 % 
-CSS                      21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
+Other                    16 hrs 59 mins      ███████████████████░░░░░░   74.93 % 
+Markdown                 3 hrs 44 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
+HTML                     1 hr 16 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.64 % 
+CSS                      21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.60 % 
+Python                   18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
 
 🐱‍💻 Projects: 
-Mvp-Hub                  7 hrs 18 mins       ████████░░░░░░░░░░░░░░░░░   33.61 % 
-blackboard-mocha-theme   4 hrs 26 mins       █████░░░░░░░░░░░░░░░░░░░░   20.43 % 
-esprit                   3 hrs 45 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
-aram                     2 hrs 4 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.52 % 
-self-learning            1 hr 10 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
+Mvp-Hub                  4 hrs 29 mins       █████░░░░░░░░░░░░░░░░░░░░   19.81 % 
+blackboard-mocha-theme   4 hrs 26 mins       █████░░░░░░░░░░░░░░░░░░░░   19.60 % 
+esprit                   3 hrs 46 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.66 % 
+aram                     2 hrs 22 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.44 % 
+notes-cce-esprit         1 hr 22 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.07 % 
 ```
 
 
- Last Updated on 16/09/2026 02:47:35 UTC
+ Last Updated on 17/09/2026 02:51:24 UTC
 <!--END_SECTION:waka-->
