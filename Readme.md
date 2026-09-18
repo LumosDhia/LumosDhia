@@ -157,7 +157,7 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-51%20hrs%204%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-53%20hrs%2027%20mins-blue?style=flat)
 
 📅 **I'm Most Productive on Tuesday** 
 
@@ -176,20 +176,20 @@ Sunday                   61 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Other                    16 hrs 59 mins      ███████████████████░░░░░░   74.93 % 
-Markdown                 3 hrs 44 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
-HTML                     1 hr 16 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.64 % 
-CSS                      21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.60 % 
-Python                   18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
+Other                    12 hrs 15 mins      ███████████████░░░░░░░░░░   60.32 % 
+Markdown                 3 hrs 49 mins       █████░░░░░░░░░░░░░░░░░░░░   18.85 % 
+TeX                      1 hr 28 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.24 % 
+HTML                     1 hr 16 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.29 % 
+Bash                     34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.85 % 
 
 🐱‍💻 Projects: 
-Mvp-Hub                  4 hrs 29 mins       █████░░░░░░░░░░░░░░░░░░░░   19.81 % 
-blackboard-mocha-theme   4 hrs 26 mins       █████░░░░░░░░░░░░░░░░░░░░   19.60 % 
-esprit                   3 hrs 46 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.66 % 
-aram                     2 hrs 22 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.44 % 
-notes-cce-esprit         1 hr 22 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.07 % 
+blackboard-mocha-theme   4 hrs 26 mins       █████░░░░░░░░░░░░░░░░░░░░   21.87 % 
+esprit                   3 hrs 46 mins       █████░░░░░░░░░░░░░░░░░░░░   18.58 % 
+aram                     2 hrs 22 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.65 % 
+Homeword                 1 hr 56 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.59 % 
+notes-cce-esprit         1 hr 22 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.77 % 
 ```
 
 
- Last Updated on 17/09/2026 02:51:24 UTC
+ Last Updated on 18/09/2026 02:38:08 UTC
 <!--END_SECTION:waka-->
