@@ -1,14 +1,15 @@
 name: Waka Readme
-
+# Disabled: the coding-stats section was removed from the README, so there is
+# nothing for this action to update. To turn it back on, re-add the START_SECTION:waka /
+# END_SECTION:waka markers to the README, restore the schedule trigger below,
+# and remove `if: false` from the job.
 on:
-  schedule:
-    # run every day at 00:00
-    - cron: '0 0 * * *'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   update-readme:
+    if: false
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
