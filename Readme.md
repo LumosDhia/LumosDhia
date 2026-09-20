@@ -157,7 +157,7 @@ workflow config, leaving mainly the language breakdown chart.
 > May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-53%20hrs%2027%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-60%20hrs%2010%20mins-blue?style=flat)
 
 📅 **I'm Most Productive on Tuesday** 
 
@@ -176,20 +176,20 @@ Sunday                   61 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Other                    12 hrs 51 mins      ███████████████░░░░░░░░░░   61.46 % 
-Markdown                 3 hrs 49 mins       █████░░░░░░░░░░░░░░░░░░░░   18.31 % 
-TeX                      1 hr 28 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.03 % 
-HTML                     1 hr 16 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.11 % 
-Bash                     34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.76 % 
+Other                    13 hrs 33 mins      ████████████░░░░░░░░░░░░░   47.83 % 
+Markdown                 5 hrs 36 mins       █████░░░░░░░░░░░░░░░░░░░░   19.77 % 
+HTML                     3 hrs 2 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.72 % 
+CSS                      1 hr 30 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.30 % 
+TeX                      1 hr 28 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
 
 🐱‍💻 Projects: 
-blackboard-mocha-theme   4 hrs 26 mins       █████░░░░░░░░░░░░░░░░░░░░   21.24 % 
-esprit                   3 hrs 46 mins       █████░░░░░░░░░░░░░░░░░░░░   18.05 % 
-aram                     2 hrs 38 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
-Homeword                 1 hr 56 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.31 % 
-notes-cce-esprit         1 hr 22 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
+blackboard-mocha-theme   4 hrs 26 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.68 % 
+esprit                   3 hrs 46 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
+aram                     2 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.78 % 
+Homeword                 1 hr 56 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.88 % 
+nearfit                  1 hr 38 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.81 % 
 ```
 
 
- Last Updated on 19/09/2026 02:37:30 UTC
+ Last Updated on 20/09/2026 02:49:17 UTC
 <!--END_SECTION:waka-->
