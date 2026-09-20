@@ -141,4 +141,4 @@ trigger.
 <!--END_SECTION:reading-->
 <br clear="both">
 
-> May your pods never CrashLoopBackOff <img src="assets/kubernetes-16-svgrepo-com.svg" width="16" valign="middle" alt="kubernetes">
+> May your pods never CrashLoopBackOff <picture><source media="(prefers-color-scheme: dark)" srcset="assets/kubernetes-16-dark.svg"><img src="assets/kubernetes-16-light.svg" width="16" valign="middle" alt="kubernetes"></picture>
