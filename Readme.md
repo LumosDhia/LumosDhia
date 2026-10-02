@@ -107,6 +107,17 @@ trigger.
   </tr>
 </table>
 
+<br>
+
+<p align="center">
+  <a href="https://github.com/LumosDhia/lsvm"><img src="assets/proj-lsvm-logo.svg" width="220" alt="lsvm logo"></a><br>
+  <b><a href="https://github.com/LumosDhia/lsvm">lsvm</a></b><br>
+  <sub>An <code>ls</code>-style listing of my VMware Workstation VMs, with live CPU and memory usage for the running ones.</sub>
+</p>
+<p align="center">
+  <img src="assets/proj-lsvm-usage.png" width="760" alt="lsvm usage">
+</p>
+
 
 <h2 align="center"> 🇨‌🇴‌🇳‌🇹‌🇦‌🇨‌🇹‌ 🇲‌🇪‌ </h2>
 <div align="center">
