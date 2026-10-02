@@ -110,9 +110,7 @@ trigger.
 <br>
 
 <p align="center">
-  <a href="https://github.com/LumosDhia/lsvm"><img src="assets/proj-lsvm-logo.svg" width="220" alt="lsvm logo"></a><br>
-  <b><a href="https://github.com/LumosDhia/lsvm">lsvm</a></b><br>
-  <sub>An <code>ls</code>-style listing of my VMware Workstation VMs, with live CPU and memory usage for the running ones.</sub>
+  <a href="https://github.com/LumosDhia/lsvm"><img src="assets/proj-lsvm-logo.svg" height="48" valign="middle" alt="lsvm logo"></a> <b><a href="https://github.com/LumosDhia/lsvm">lsvm</a></b>: an <code>ls</code>-style listing of my VMware Workstation VMs, with live CPU and memory usage for the running ones.
 </p>
 <p align="center">
   <img src="assets/proj-lsvm-usage.png" width="760" alt="lsvm usage">
