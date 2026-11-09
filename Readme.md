@@ -30,7 +30,7 @@ LumosDhia@github
     <td valign="middle">
       <img src="assets/icon-claude.svg" width="48" alt="Claude" title="Claude" />
       <img src="assets/icon-deepseek.svg" width="48" alt="DeepSeek" title="DeepSeek" />
-      <img src="assets/icon-herdr.svg" width="48" alt="Herdr" title="Herdr" />
+      <img src="assets/icon-herdr-bg.svg" width="48" alt="Herdr" title="Herdr" />
       <img src="assets/icon-n8n.svg" width="48" alt="n8n" title="n8n" />
     </td>
   </tr>
