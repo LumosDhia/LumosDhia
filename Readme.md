@@ -26,7 +26,7 @@ LumosDhia@github
 
 <table align="center">
   <tr>
-    <td valign="middle"><b>AI Workflow</b></td>
+    <td valign="middle"><b>🤖 AI Workflow</b></td>
     <td valign="middle">
       <img src="assets/icon-claude.svg" width="48" alt="Claude" title="Claude" />
       <img src="assets/icon-deepseek.svg" width="48" alt="DeepSeek" title="DeepSeek" />
